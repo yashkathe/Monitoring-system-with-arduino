@@ -1,6 +1,6 @@
 # Monitoring system with arduino
 
-This monitoring system has various features such as burglar alarm, gas leak alarm and temperature and humidity sensor.
+This monitoring system has various features such as burglar alarm, gas leak alarm and temperature/humidity sensor.
 
 
 ## Components Used
@@ -11,12 +11,15 @@ This monitoring system has various features such as burglar alarm, gas leak alar
 - IR sensor 
 - DHT22 sensor
 - MQ6 sesnor
+- 
 ## Circuit Diagram
 
 ![circuit diagram](https://raw.githubusercontent.com/yashkathe/Monitoring-system-with-arduino/master/assets/circuit-diagram.jpg)
+
 ## Block diagram
 
 ![Block diagram](https://raw.githubusercontent.com/yashkathe/Monitoring-system-with-arduino/master/assets/blockdigram.jpg)
+
 ## Description
 
 - For the burglar alarm, we have used IR sensor. So if someone tries to enter your 
@@ -26,6 +29,7 @@ This monitoring system has various features such as burglar alarm, gas leak alar
 
 - For the temperature and humidity sensing, we have used DHT22 sensor that picks up the 
   temperature and humidity % from the surroundings and displays it on the LCD screen.
+  
 ## Project photos
 
 - Ir sensor with buzzer
@@ -44,21 +48,21 @@ This monitoring system has various features such as burglar alarm, gas leak alar
 
 ## Folder structure
 
-1. `DHT22` 
+1. `DHT22:` 
 This code makes use of dht22 sensor to measure temperature , humidity and heat index. 
 
-2. `DHT22_with_Lcd`
+2. `DHT22_with_Lcd:`
 This code does has the same function as that of previous code , the only difference is that temperature and humidity is also displayed to lcd. 
 
-3. `IR`
+3. `IR:`
 Simple code which uses IR sensor to detect movement.
 
-4. `MQ6`
+4. `MQ6:`
 MQ6 sensor is the main sensing component which is used in a gas detection appliance. So this code helps alert us if there is a gas leak. 
 
-5. `ir+mq6`
+5. `ir+mq6:`
 Just a combined code for both ir and mq6.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at katheyash@yahoo.com
+If you have any feedback, please reach out to me at katheyash@yahoo.com
