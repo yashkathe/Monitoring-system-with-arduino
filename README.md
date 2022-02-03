@@ -11,7 +11,7 @@ This monitoring system has various features such as burglar alarm, gas leak alar
 - IR sensor 
 - DHT22 sensor
 - MQ6 sesnor
-- 
+
 ## Circuit Diagram
 
 ![circuit diagram](https://raw.githubusercontent.com/yashkathe/Monitoring-system-with-arduino/master/assets/circuit-diagram.jpg)
